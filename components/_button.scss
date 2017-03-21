@@ -1,0 +1,18 @@
+.btn{
+  background-color: $deep-orange;
+  color: $text-color--light;
+  width: 150px;
+  text-align: center;
+  transition: all 0.25s;
+  cursor: pointer;
+
+  &:hover{
+    background-color: lighten($deep-orange, 20%);
+    color: darken($text-color--light, 80%);
+  }
+
+  &:active{
+    background-color: darken($deep-orange, 20%);
+    color: darken($text-color--light, 80%);
+  }
+}

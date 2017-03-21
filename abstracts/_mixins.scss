@@ -1,0 +1,15 @@
+@mixin transform($trans){
+  -webkit-transform: $trans;
+     -moz-transform: $trans;
+      -ie-transform: $trans;
+       -o-transform: $trans;
+          transform: $trans;
+}
+
+@mixin translate($amt){
+  @include transform(translate($amt));
+}
+
+@mixin scale($amt){
+  @include transform(scale($amt));
+}
