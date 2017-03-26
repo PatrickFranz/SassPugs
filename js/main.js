@@ -1,5 +1,8 @@
 const cb_reply = document.querySelector('.reply-checkbox');
 
+function cbSwitcher(){
+
+}
 function checkHandler(event){
   if(event.target.innerHTML === "Y"){
     event.target.innerHTML = "N";
@@ -13,13 +16,7 @@ function checkHandler(event){
 function keyupHandler(event){
   if(event.keyCode === 32){
     event.target.focus();
-    if(event.target.innerHTML === "Y"){
-    event.target.innerHTML = "N";
-    event.target.setAttribute('aria-selected', false);
-  } else {
-    event.target.innerHTML = "Y";
-    event.target.setAttribute('aria-selected', true);
-  }
+    checkHandler(event);
   }
 }
 
