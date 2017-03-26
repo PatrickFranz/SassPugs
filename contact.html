@@ -8,7 +8,7 @@
   <title>Pugs, Contact</title>
 </head>
 <body>
-  <header>
+  <header role='banner'>
     <span class='header-logo'>
       <img src="img/pug-ico_50w.png" alt="A Pug">
       <span>Pugs</span>
@@ -20,9 +20,9 @@
       </a>
     </span>
   </header>
-  <section class='container-home grid--fluid'>
+  <section role='main' class='container-home grid--fluid'>
     <h1 class='center-block form-title'><span class='highlight'>Pug</span>Mail</h1>
-    <form action="GET">
+    <form role='form' action="GET">
       <div class="grid__row">
         <div class="grid__col8">
           <label for="form-name">NAME</label>
@@ -41,12 +41,13 @@
           <textarea id='form-textbox' ></textarea>
         </div>
       </div>
-      <div class="btn submit center-block">SEND</div>
+      <div role='button' class="btn submit center-block">SEND</div>
     </form>
   </section>
 
   <footer>
-    <span class='footer-logo'>
+    <span role='contentinfo' class='footer-logo'>
+      <p>Copyright &copy; PF</p>
       <img src="img/pug-ico_50w.png" alt="A Pug">
     </span>
   </footer>

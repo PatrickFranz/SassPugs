@@ -347,5 +347,11 @@ footer {
     font-weight: 300;
     line-height: 1.75;
     height: 100%; }
+  .container-home .text--funfact {
+    background: #FF5722;
+    font-size: 1.2rem;
+    text-align: right;
+    padding: 1rem;
+    opacity: 0.85; }
   .container-home .highlight {
     color: #FF5722; }

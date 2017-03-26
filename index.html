@@ -8,29 +8,29 @@
   <title>Pugs, YA</title>
 </head>
 <body>
-  <header>
+  <header role='banner'>
     <span class='header-logo'>
       <img src="img/pug-ico_50w.png" alt="A Pug">
       <span>Pugs</span>
     </span>
-    <span class='header-contact'>
+    <span role='navigation' class='header-contact'>
       <a href="contact.html">
         <span class='header-contact-text'>Contact</span>
         <img src="img/contact-ico-40w.png" alt="Contact Icon">
       </a>
     </span>
   </header>
-  <section class='container-home grid--fluid'>
+  <section role='main' class='container-home grid--fluid'>
     <div class="grid__row">
       <div class="grid__col2">
           <img class='bg--orange margin-shiv' src="img/pug-logo-150w.png" alt="">
           <img class='' src="img/pug1-150w.png" alt="">
       </div>
       <div class="grid__col5">
-        <div class="text--xl well"><i class='highlight'>Pugs!</i> Where do you come from?</div>
+        <div class="text--xl well"><span class='highlight'>Pugs, YA!</span> Where do you come from?</div>
       </div>
       <div class="grid__col5">
-        <div class="text--xl well"> How did we make you? <i class='highlight'>Nobody</i> knows!</div>
+        <div class="text--xl well"> How did we make you? <span class='highlight'>Nobody</span> knows!</div>
       </div>
     </div>
     <div class="grid__row">
@@ -41,10 +41,15 @@
       <div class="grid__col5">
         <img src="img/pug3-150h.png" alt=""></div>
     </div>
+    <div class="grid__row">
+      <div class="grid__offset-by-7"></div>
+      <div role='complementary' class="grid__col5 text--funfact">* A group of Pugs is called a "Grumble".</div>
+    </div>
   </section>
 
   <footer>
-    <span class='footer-logo'>
+    <span role='contentinfo' class='footer-logo'>
+      <p>Copyright &copy; PF</p>
       <img src="img/pug-ico_50w.png" alt="A Pug">
     </span>
   </footer>
