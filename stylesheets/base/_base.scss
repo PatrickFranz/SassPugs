@@ -15,4 +15,9 @@ body{
   h1{
     font-size: 2rem;
   }
+
+  [role='checkbox']{
+    border: 1px solid $deep-orange;
+    cursor: pointer;
+  }
 }

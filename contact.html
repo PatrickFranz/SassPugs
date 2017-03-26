@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
   <title>Pugs, Contact</title>
 </head>
 <body>
@@ -41,7 +41,14 @@
           <textarea id='form-textbox' ></textarea>
         </div>
       </div>
-      <div role='button' class="btn submit center-block">SEND</div>
+      <div class="grid__row">
+        <div class="grid__col12">
+          <label class='label__cb-reply'for="form-textbox">SEND ME A REPLY
+            <span role='checkbox' aria-selected='true' id='form-textbox' class='reply-checkbox' tabindex="0">Y</span>
+          </label>
+        </div> 
+      </div>
+      <div role='button' class="btn submit" tabindex="0">SEND</div>
     </form>
   </section>
 
@@ -51,5 +58,6 @@
       <img src="img/pug-ico_50w.png" alt="A Pug">
     </span>
   </footer>
+  <script src='js/main.js'></script>
 </body>
 </html>
