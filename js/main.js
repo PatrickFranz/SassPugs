@@ -11,6 +11,7 @@ function checkHandler(event){
     event.target.innerHTML = "Y";
     event.target.setAttribute('aria-selected', true);
   }
+  
 }
 
 function keyupHandler(event){
