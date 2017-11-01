@@ -1,0 +1,23 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  background: $background--dark;
+  color: $text-color--light;
+
+  a{
+    color: $text-color--light;
+
+    &:hover{
+      color: lighten($text-color--light,20%);
+    }
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  [role='checkbox']{
+    border: 1px solid $deep-orange;
+    cursor: pointer;
+  }
+}
